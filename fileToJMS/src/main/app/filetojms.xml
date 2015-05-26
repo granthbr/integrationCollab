@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:jms="http://www.mulesoft.org/schema/mule/jms" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="CE-3.5.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd">
+    <jms:activemq-connector name="MachineLocalJMS" specification="1.1" username="admin" password="admin" brokerURL="tcp://machine:32768" validateConnections="true" persistentDelivery="true" doc:name="Active MQ">
+        <reconnect frequency="20000"/>
+    </jms:activemq-connector>
+    <flow name="filetojmsFlow">
+        <file:inbound-endpoint path="./in" moveToDirectory="./out" responseTimeout="10000" doc:name="Autobot-FileIn"/>
+        <byte-array-to-string-transformer doc:name="Byte Array to String"/>
+        <jms:outbound-endpoint exchange-pattern="request-response" queue="file.in" connector-ref="MachineLocalJMS" doc:name="JMS-file.in"/>
+        <logger message="JMS inser result *** #[payload]" level="INFO" doc:name="Logger"/>
+    </flow>
+</mule>

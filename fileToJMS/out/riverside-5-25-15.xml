@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<gallery>
+		<image>
+			<title></title>
+			<link></link>
+			<url>http://riversideparramatta.com.au/wp-content/files_mf/1427698529EnewsHeader.jpg</url>
+		</image>
+		<image>
+			<title></title>
+			<link>http://riversideparramatta.com.au/your-visit/membership/</link>
+			<url>http://riversideparramatta.com.au/wp-content/files_mf/1427949958Sidekicks.jpg</url>
+		</image>
+	</gallery>
+	<events>
+		<event>
+			<title>The Ride of the Valkyries by Sydney Youth Orchestra</title>
+			<producer>Riverside Presents</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422401962syo574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422401964syo281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422941358183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422401967syo88x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/the-ride-of-the-valkyries-by-sydney-youth-orchestra/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/the-ride-of-the-valkyries-by-sydney-youth-orchestra/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>31 May 2015</date_start_value>
+			<date_finish_value>31 May 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>SYO brings classical music to life with Wagner’s magnificent The Ring Without Words, the Ride of the Valkyries and many more.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/the-ride-of-the-valkyries-by-sydney-youth-orchestra/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4793|RWEB|VRIV|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Family, Featured, Music, What's On</interest_category>
+			<category></category>
+			<sort_order>1</sort_order>
+		</event>
+		<event>
+			<title>Marney McQueen &#8211; Hair to the Throne</title>
+			<producer>Riverside Theatres presents</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1423195036574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1423195039281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1423195042183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142319504688x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/marney-mcqueen-hair-to-the-throne/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/marney-mcqueen-hair-to-the-throne/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>12 June 2015</date_start_value>
+			<date_finish_value>12 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Rosa Waxoffski is back and changing the world one bikini wax at a time. A delightful, hilarious and razor sharp night of character cabaret.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/marney-mcqueen-hair-to-the-throne/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4818|RWEB|VLEN|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Featured, Music, What's On</interest_category>
+			<category></category>
+			<sort_order>1</sort_order>
+		</event>
+		<event>
+			<title>Talk Show &#8211; June</title>
+			<producer>Urban Theatre Projects and Riverside Theatres</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430272691574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430272694281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430272697183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/143027270488x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/talk-show/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/talk-show/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>2 June 2015</date_start_value>
+			<date_finish_value>2 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Hosted by 80-year-old June Hickey and her side kick Rosie Dennis, think Jimmy Fallon, The Variety Hour and The Footy Show all rolled into one.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/talk-show/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4894|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Comedy, Events &amp; Exhibitions, Featured, Theatre, What's On</interest_category>
+			<category></category>
+			<sort_order>2</sort_order>
+		</event>
+		<event>
+			<title>Behind the Lines Exhibition</title>
+			<producer>Riverside Theatres and The Whitlam Institute</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428380481574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428380485281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428380494183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142838049988x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/behind-the-lines-exhibition-3/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/behind-the-lines-exhibition-3/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>1 May 2015</date_start_value>
+			<date_finish_value>28 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>The tragedy and comedy of the events of the year are drawn together in Behind The Lines 2014 featuring Australia’s premier political cartoonists. </subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/behind-the-lines-exhibition-3/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url></buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Behind the Lines 2015, Events &amp; Exhibitions, Featured, Free Events, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>20,000 Days on Earth</title>
+			<producer>Riverside Screen: Castaldi in Focus</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427347346574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427347349281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427347357183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142734735888x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/20000-days-on-earth/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/20000-days-on-earth/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>27 May 2015</date_start_value>
+			<date_finish_value>27 May 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>A documentary about musician and cultural icon Nick Cave. Plus Q&amp;A with Special Guest Directors Iain Forsyth &amp; Jane Pollard.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/20000-days-on-earth/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4865|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Castaldi in Focus, Featured, Screen, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>The Hard Problem</title>
+			<producer>National Theatre Live</producer>
+			<author>A new play by Tom Stoppard</author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422916211newhardprob574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422916213newhardprob281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1423002016new183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1422916217newhardprob88x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/the-hard-problem/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/the-hard-problem/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>24 May 2015</date_start_value>
+			<date_finish_value>30 May 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Acclaimed playwright Tom Stoppard returns to the National Theatre with his highly-anticipated new play, directed by Nicholas Hytner.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/the-hard-problem/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4760|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Featured, Screen, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>Dances of Divinity</title>
+			<producer>Lingalayam</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428970127574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428970132281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428970137183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142897014088x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/dances-of-divinity/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/dances-of-divinity/</img_click_url>
+			<show_date>no</show_date>
+			<date_start_value>30 May 2015</date_start_value>
+			<date_finish_value>30 May 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>This show eplores the divine dance of the Hindu pantheon of gods, worshiped and celebrated as dancing deities. </subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/dances-of-divinity/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4884|RWEB|VRIV|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Dance, Featured, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>The Impressionists and the Man Who Made Them</title>
+			<producer>Sharmill Films - Exhibition on Screen</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1431474343impressionists574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1431474347impressionists281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1431474350183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1431474354impressionists88x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/the-impressionists/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/the-impressionists/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>31 May 2015</date_start_value>
+			<date_finish_value>9 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Uncover the story of art’s greatest revolutionaries. Featuring work by Monet, Renoir, Cezanne, Degas, Pissarro and many more.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/the-impressionists/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4731|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Education, Featured, Screen, Secondary Education, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>The Good Lie</title>
+			<producer>Screen Café</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427693700574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427693704281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427693706183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142769370988x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/the-good-lie/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/the-good-lie/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>1 June 2015</date_start_value>
+			<date_finish_value>1 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Inspired by the incredible true story, from Academy Award winning producers Ron Howard &amp; Brian Grazer. Starring Academy Award winner Reese Witherspoon.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/the-good-lie/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4869|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Featured, Screen, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>Gallipoli</title>
+			<producer>Riverside Screen: Castaldi in Focus</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428972933574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428972941281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428972950183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142897296488x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/gallipoli/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/gallipoli/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>3 June 2015</date_start_value>
+			<date_finish_value>3 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>An iconic Australian World War I film featuring a Q&amp;A with actor Mark Lee.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/gallipoli/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4866|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Castaldi in Focus, Featured, Screen, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>DAAS Live</title>
+			<producer>Doug Anthony Allstars</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428370815574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428370812281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1428370811183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142837081388x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/daas-live/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/daas-live/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>5 June 2015</date_start_value>
+			<date_finish_value>5 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>The Doug Anthony Allstars (DAAS) Live on Stage! Paul McDermott and Tim Ferguson have teamed up with mentor Paul “Flacco” Livingston for a sublime night of songs, sex, violence, feminism (and sex).</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/daas-live/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4859|RWEB|VRIV|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Comedy, Featured, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>Julius Caesar</title>
+			<producer>Globe On Screen</producer>
+			<author>By william Shakespeare</author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427427827574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427427830281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1427427833183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142742783688x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/julius-caesar/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/julius-caesar/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>6 June 2015</date_start_value>
+			<date_finish_value>23 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Dominic Dromgoole’s impassioned interpretation of one of Shakespeare’s classic plays is genuinely magically.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/julius-caesar/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4875|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Education, Featured, Screen, Secondary Education, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>Vincent Van Gogh</title>
+			<producer>Sharmill Films - Exhibition on Screen</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1415576416vangogh574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1415576419vangogh281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1423003219183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1415576422vangogh88x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/vincent-van-gogh/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/vincent-van-gogh/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>18 April 2015</date_start_value>
+			<date_finish_value>9 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>Explore the dramatic story and iconic work of the world’s most beloved artist.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/vincent-van-gogh/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4727|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Education, Featured, Screen, Secondary Education, What's On</interest_category>
+			<category></category>
+			<sort_order>3</sort_order>
+		</event>
+		<event>
+			<title>Terrifying! Liberty, Threats &#038; Australia&#8217;s New Security Legislation</title>
+			<producer>Whitlam Institute, The NSW Writers’ Centre and Riverside Theatres</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430283331574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430283337281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430283345183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/143028335188x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/terrifying-liberty-threats-and-australias-new-security-legislation/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/terrifying-liberty-threats-and-australias-new-security-legislation/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>4 June 2015</date_start_value>
+			<date_finish_value>4 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>A panel of experts, including Professor George Williams &amp; Mr Paul Murphy, exploring Liberty, Threats and Australia’s new Security Legislation</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/terrifying-liberty-threats-and-australias-new-security-legislation/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4893|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Behind the Lines 2015, Events &amp; Exhibitions, Featured, What's On</interest_category>
+			<category></category>
+			<sort_order>4</sort_order>
+		</event>
+		<event>
+			<title>20 Comics in 60 Minutes #2</title>
+			<producer>BonkerZ Comedy Club Presents</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1421298818574x347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1421298821281x149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1423001134183x96.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/142129882488x88.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/20-comics-in-60-minutes-2/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/20-comics-in-60-minutes-2/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>30 May 2015</date_start_value>
+			<date_finish_value>30 May 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>A night jam-packed full of crazy laughs and zany people.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/20-comics-in-60-minutes-2/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4780|RWEB|VRAF|FRVS|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Comedy, Featured, What's On</interest_category>
+			<category></category>
+			<sort_order>5</sort_order>
+		</event>
+		<event>
+			<title>Bedtime Story</title>
+			<producer>Nautanki Theatre</producer>
+			<author></author>
+			<hero_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430174202RT_BtS_574347.jpg</hero_img_url>
+			<medium_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430174218RT_BtS_281149.jpg</medium_img_url>
+			<smalltall_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430174234RT_BtS_18396.jpg</smalltall_img_url>
+			<small_img_url>http://riversideparramatta.com.au/wp-content/files_mf/1430174245RT_BtS_8888.jpg</small_img_url>
+			<title_click_url>http://riversideparramatta.com.au/show/bedtime-story/</title_click_url>
+			<img_click_url>http://riversideparramatta.com.au/show/bedtime-story/</img_click_url>
+			<show_date>yes</show_date>
+			<date_start_value>4 June 2015</date_start_value>
+			<date_finish_value>6 June 2015</date_finish_value>
+			<show_cost>no</show_cost>
+			<cost_value></cost_value>
+			<show_subtext>yes</show_subtext>
+			<subtext_value>An engaging performance based on ancient Indian epic, the Mahabharata, mixed with humor and a parallel story line.</subtext_value>
+			<show_read_more>yes</show_read_more>
+			<readmore_link_url>http://riversideparramatta.com.au/show/bedtime-story/</readmore_link_url>
+			<show_buy_ticket>yes</show_buy_ticket>
+			<buy_tickets_url>https://boxoffice.riversideparramatta.com.au/WebPages/EntaWebGateway/customgateway.aspx?E=N&amp;QL=H|S4890|RWEB|VLEN|G~/WEBPAGES/EntaWebShow/ShowDatesCombo.aspx&amp;pickseats=no</buy_tickets_url>
+			<show_facebook_button>no</show_facebook_button>
+			<facebook_button_url></facebook_button_url>
+			<show_tweet_button>no</show_tweet_button>
+			<tweet_url></tweet_url>
+			<show_play_video>no</show_play_video>
+			<play_video_url></play_video_url>
+			<interest_category>Featured, Theatre, What's On</interest_category>
+			<category></category>
+			<sort_order>5</sort_order>
+		</event>
+	</events>
+</root>
