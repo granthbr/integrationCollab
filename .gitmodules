@@ -1,0 +1,3 @@
+[submodule "docker/amq/docker-activeMQ-OracleJava-7"]
+	path = docker/amq/docker-activeMQ-OracleJava-7
+	url = https://github.com/granthbr/docker-activeMQ-OracleJava-7.git
