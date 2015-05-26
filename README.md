@@ -1,5 +1,4 @@
 #Integration Container Collaboration Repo
-Integration collaboration project for open source async micro-services
 
 ####Colabortive effort to build simple integration processes for delivering data into an sync queue. A few requirements must be met in order to post source to the collaborative repo:
 
