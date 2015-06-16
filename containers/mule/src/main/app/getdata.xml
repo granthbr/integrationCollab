@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:vm="http://www.mulesoft.org/schema/mule/vm"
+	xmlns:jms="http://www.mulesoft.org/schema/mule/jms" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="CE-3.5.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd
+http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd
+http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd">
+
+	<db:mysql-config name="MySQL_MetaData" host="${md.host}"
+		port="${md.port}" user="${md.user}" password="${md.pass}" database="metadata"
+		doc:name="MySQL Configuration" />
+	<spring:beans>
+		<spring:bean id="jdbcDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+			name="jdbcBean">
+			<spring:property name="driverClassName" value="com.mysql.jdbc.Driver" />
+			<spring:property name="username" value="${db.user}" />
+			<spring:property name="password" value="${db.pass}" />
+			<spring:property name="url"
+				value="jdbc:mysql://${db.host}:3306/${db}?useAffectedRows=true" />
+		</spring:bean>
+	</spring:beans>
+	<vm:connector name="VM" validateConnections="false"
+		doc:name="VM" />
+	<file:connector name="writer" autoDelete="false"
+		outputAppend="true" streaming="true" validateConnections="true"
+		doc:name="File" />
+	<db:mysql-config name="MySQL_Uptilt_db" dataSource-ref="jdbcDataSource"
+		doc:name="MySQL Configuration" />
+	<flow name="idsFlow-HTTP:8092">
+		<http:inbound-endpoint exchange-pattern="request-response"
+			host="0.0.0.0" port="8092" doc:name="HTTP" />
+        <set-payload value="SITE_ID,EMAIL,PASSWORD,URL,JOIN_DATE,PARTNER_REFERRAL,ACCESS_LEVEL,HTML_LEFT,HTML_RIGHT,HTML_TOP,HTML_BOTTOM,FONT,SIZE,BGCOLOR,FGCOLOR,BASE_URL,LINK_COLOR,VLINK_COLOR,CENTER_PAGE,SITETYPE,HTML_SETTYPE,HTML_BOTTOM_ALIGN,HTML_TOOL_ALIGN,HTML_LEFT_WIDTH,HTML_RIGHT_WIDTH,HTML_ADVANCED,CONTACT_NAME,JOB_TITLE,COMPANY_NAME,ZIPCODE,STATE,PAGE_VIEWS,REFERENCE,INTEREST,PHONE,FAX,ADDRESS1,ADDRESS2,COUNTRY,AFFILIATE_REFERRAL,UNIQUE_ID,BILL_METHOD,ACCOUNT_STATUS,PRICING_LEVEL,BASE_PRICE,ACCOUNT_STATUS_NOTIFY,EXECUTIVE_ID,FOLLOWUP,ZY_RETURNURL,ESTIMATED_VALUE,CITY,PRICING_LEVEL_ADVANCED,CUSTOM_STATISTICS,MEMBER_BEHAVIOR,SPAM_RATING,DEAL_SIZE,PROBABILITY,PROJECTED_CLOSE,RATING,SOURCE,VOLUME,ACCOUNT_STATUS_DATE" doc:name="Set Payload"/>
+        <file:outbound-endpoint path="/Users/BGRANTHAM/project/getdata/data" outputPattern="#[server.dateTime.format(&quot;YYYY-dd-MM&quot;).toString()]-membertable.csv" connector-ref="writer" responseTimeout="10000" doc:name="write data"/>
+		<db:select config-ref="MySQL_MetaData" doc:name="Database">
+			<db:parameterized-query><![CDATA[SELECT cid,siteId,oname,farmId,lastRun FROM `metadata`.`C_META_DATA`;]]></db:parameterized-query>
+		</db:select>
+		<foreach doc:name="For Each">
+			<request-reply doc:name="Request-Reply">
+				<flow-ref name="getdataSub_Flow" doc:name="clicksFlow" />
+				<vm:inbound-endpoint exchange-pattern="one-way"
+					path="data.out" connector-ref="VM" doc:name="VM-data.out" />
+			</request-reply>
+		</foreach>
+		<catch-exception-strategy doc:name="Catch Exception Strategy">
+			<logger message="************** Click Exception ***************"
+				level="INFO" doc:name="Click Exception" />
+			<logger message="#[exception.exceptions]" level="INFO"
+				doc:name="Logger" />
+		</catch-exception-strategy>
+	</flow>
+	<sub-flow name="getdataSub_Flow">
+		<set-variable variableName="clicks" value="${query} #[payload.siteId]"
+			doc:name="clicks" />
+		<logger message="clicks query *** #[flowVars.clicks]" level="INFO"
+			doc:name="Logger" />
+		<db:select config-ref="MySQL_Uptilt_db" doc:name="Select Clicks">
+			<db:dynamic-query><![CDATA[#[flowVars.clicks]]]></db:dynamic-query>
+		</db:select>
+		<foreach doc:name="For Each">
+            <component class="com.data.mapTostring.MapUtil" doc:name="MapUtil"/>
+            <file:outbound-endpoint path="~/" outputPattern="#[server.dateTime.format(&quot;YYYY-dd-MM&quot;).toString()]-membertable.csv" connector-ref="writer" responseTimeout="10000" doc:name="write data"/>
+			<logger message="log data for get query ** #[payload]" level="INFO"
+				doc:name="Logger" />
+		</foreach>
+		<vm:outbound-endpoint exchange-pattern="one-way"
+			path="data.out" connector-ref="VM" doc:name="VM-data.out" />
+	</sub-flow>
+</mule>
