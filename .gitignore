@@ -45,4 +45,4 @@ local.properties
 .studio/
 flows/
 target/
-docker/mule-3.6/*
+docker/mule-3.6/**
