@@ -2,18 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.lyris</groupId>
-	<artifactId>getdata</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>mule</packaging>
-	<name>Mule getdata Application</name>
+	<groupId>com.integration</groupId>
+	<artifactId>httptojms</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>mule</packaging>
+	<name>Mule httptojms Application</name>
 
-    <properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.5.0</mule.version>
-    	<mule.tools.version>1.0</mule.tools.version>
+		<mule.tools.version>1.0</mule.tools.version>
 	</properties>
 
 	<build>
@@ -24,7 +24,7 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
+					<copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -55,38 +55,35 @@
 								<resource>
 									<directory>mappings/</directory>
 								</resource>
-							<resource>
-                                    <directory>src/main/api/</directory>
-                                </resource>
-                            <resource>
-                                    <directory>src/main/api/</directory>
-                                </resource>
-                            </resources>
+								<resource>
+									<directory>src/main/api/</directory>
+								</resource>
+							</resources>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
-		<plugin>
-                <groupId>org.mule.munit.tools</groupId>
-                <artifactId>munit-maven-plugin</artifactId>
-                <version>3.5-M3-SNAPSHOT</version>
-                <executions>
-                    <execution>
-                        <id>test</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>test</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-	<testResources>
-            <testResource>
-                <directory>src/test/munit</directory>
-            </testResource>
-        </testResources>
-    </build>
+			<plugin>
+				<groupId>org.mule.munit.tools</groupId>
+				<artifactId>munit-maven-plugin</artifactId>
+				<version>3.5-M3-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<id>test</id>
+						<phase>test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		<testResources>
+			<testResource>
+				<directory>src/test/munit</directory>
+			</testResource>
+		</testResources>
+	</build>
 
 	<!-- Mule Dependencies -->
 	<dependencies>
@@ -141,22 +138,10 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.0.8</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>1.4</version>
-		</dependency>
-		<!-- AMQ -->
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-all</artifactId>
-			<version>5.8.0</version>
+			<version>5.10.0</version>
 		</dependency>
 		<!-- for testing -->
 		<dependency>
@@ -195,13 +180,13 @@
 			<version>3.5-M3-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.mule.modules</groupId>
-			<artifactId>mule-module-db</artifactId>
-			<version>${mule.version}</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
+	<dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-json</artifactId>
+            <version>${mule.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 	<repositories>
 		<repository>

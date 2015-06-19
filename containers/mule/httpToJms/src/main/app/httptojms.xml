@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:vm="http://www.mulesoft.org/schema/mule/vm" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:jms="http://www.mulesoft.org/schema/mule/jms" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="CE-3.5.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd
+http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd">
+	<jms:activemq-connector name="Active_MQ"
+		specification="1.1" username="admin" password="admin" brokerURL="tcp://machine:61616"
+		validateConnections="false" doc:name="Active MQ" persistentDelivery="true">
+		<reconnect frequency="20000" />
+	</jms:activemq-connector>
+
+	<flow name="httptojmsFlow-localhost:4442">
+		<http:inbound-endpoint exchange-pattern="request-response"
+			host="0.0.0.0" port="${startport}" doc:name="HTTP" />
+		<http:outbound-endpoint exchange-pattern="request-response"
+			method="GET" responseTimeout="1000000" followRedirects="true"
+			doc:name="Autobot-Retrieve-Http-Content" address="${httpendpoint}" />
+		<byte-array-to-string-transformer
+			doc:name="Byte Array to String" />
+        <set-variable variableName="cname" value="${cname}" doc:name="CustomerName1"/>
+        <set-variable variableName="count" value="#[xpath('count(//event)')] " doc:name="count"/>
+        <logger message="CNAME  ** ${cname} *** xpath prop *** ${xpathcount}" level="INFO" doc:name="Logger"/>
+        <scatter-gather doc:name="Scatter-Gather">
+            <processor-chain>
+                <jms:outbound-endpoint queue="${amqhttp}" connector-ref="Active_MQ" doc:name="JMS-ab.out"/>
+                <logger message="through the ab queue" level="INFO" doc:name="Logger"/>
+            </processor-chain>
+            <processor-chain>
+                <foreach collection="#[xpath('//root/events/event')]" doc:name="For Each">
+                    <component class="Pause" doc:name="Pause"/>
+                    <logger message="XML lines *** #[xpath('title/text()').text]" level="INFO" doc:name="Logger"/>
+	<!-- xpath('//XML/Result/Surveys/element') -->
+                  <!--   <set-payload value="Event title**** #[payload.title]" doc:name="Logger information"/> -->
+                    <jms:outbound-endpoint queue="diff" connector-ref="Active_MQ" doc:name="JMS-diff"/>
+                </foreach>
+                <logger message="payload for logger " level="INFO" doc:name="Logger"/>
+            </processor-chain>
+            <processor-chain>
+                <set-payload value="#[server.dateTime.getDate().toString()] *** Total Event Count *** #[flowVars['count'].substring(0,flowVars['count'].lastIndexOf('.'))]  *** Customer Name *** #[flowVars.cname]" doc:name="Logger information"/>
+                <jms:outbound-endpoint queue="log" connector-ref="Active_MQ" doc:name="JMS-log"/>
+                <logger message="payload for logger" level="INFO" doc:name="Logger"/>
+            </processor-chain>
+        </scatter-gather>
+        <logger message="POST result *** " level="INFO" doc:name="Logger"/>
+        <catch-exception-strategy doc:name="Catch Exception Strategy">
+            <logger message="#[exception.exceptions]" level="ERROR" doc:name="HttpToJMS Exception"/>
+        </catch-exception-strategy>
+	</flow>
+</mule>
